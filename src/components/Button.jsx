@@ -2,7 +2,7 @@ import React from 'react'
 
 function Button({className, text}) {
   return (
-    <button className={`rounded-full ${className}`}>{text}</button>
+    <button className={`rounded-full cursor-pointer ${className}`}>{text}</button>
   )
 }
 

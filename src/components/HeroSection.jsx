@@ -1,16 +1,21 @@
 import React from "react";
-import { hero_section_bg_image } from "../assets/images";
+import { hero_section_bg_image, state_district_mNG } from "../assets/images";
 import Navbar from "./Navbar";
 import Button from "./Button";
 
 function HeroSection() {
   return (
-    <div className="relative flex flex-col justify-center items-center">
-      <img className="w-full h-screen" src={hero_section_bg_image} alt="" />
+    <div className="w-full h-[1550px] flex flex-col">
+      <div className="w-full relative">
+        <img className="w-full h-[1006px]" src={hero_section_bg_image} alt="" />
+        <div class="absolute inset-x-0 bottom-0 h-[650px] bg-gradient-to-t from-white to-transparent"></div>
+      </div>
+
       <div className="flex justify-center">
         <Navbar />
       </div>
-      <div className="w-full h-[1550px] flex flex-col justify-center items-center">
+
+      <div className="w-full flex flex-col justify-center items-center">
         <div className="absolute w-[1234px] h-[338px] top-[205px] text-white flex flex-col justify-center items-center gap-6">
           <h3 className="font-medium text-[80px] text-center leading-24">
             The World's First Yogasana Championship Software
@@ -25,7 +30,19 @@ function HeroSection() {
             text="Get start for free"
           />
         </div>
+        <div className="w-full absolute top-[619px] flex justify-center">
+          <img
+            className="w-[1320px] h-[859px] rounded-[30px]"
+            src={state_district_mNG}
+            alt="state_district_mNG"
+          />
+          <div class="absolute inset-x-0 bottom-0 h-[400px] bg-gradient-to-t from-white to-transparent"></div>
+        </div>
       </div>
+
+      
+
+      
     </div>
   );
 }

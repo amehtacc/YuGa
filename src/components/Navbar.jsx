@@ -10,16 +10,16 @@ function Navbar() {
         </h1>
       </div>
       <div className="flex justify-center items-center gap-10">
-        <a className="font-medium text-base text-[rgba(51,63,71,1)]">
+        <a className="font-medium text-base text-[rgba(51,63,71,1)]" href="#">
           Features
         </a>
-        <a className="font-medium text-base text-[rgba(51,63,71,1)]">
+        <a className="font-medium text-base text-[rgba(51,63,71,1)]" href="#">
           Solutions
         </a>
-        <a className="font-medium text-base text-[rgba(51,63,71,1)]">
+        <a className="font-medium text-base text-[rgba(51,63,71,1)]" href="#">
           About
         </a>
-        <a className="font-medium text-base text-[rgba(51,63,71,1)]">
+        <a className="font-medium text-base text-[rgba(51,63,71,1)]" href="#">
           Pricing
         </a>
       </div>

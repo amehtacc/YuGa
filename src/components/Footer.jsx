@@ -26,37 +26,37 @@ function Footer() {
           <div>
             <h4 className="text-base font-semibold mb-7">Shopify</h4>
             <div className='flex flex-col gap-5'>
-              <p className="text-sm font-normal ">About us</p>
-              <p className="text-sm font-normal ">Features</p>
-              <p className="text-sm font-normal ">Blogs</p>
-              <p className="text-sm font-normal ">Reviews</p>
-              <p className="text-sm font-normal ">Pricing</p>
+              <a className="text-sm font-normal" href="#">About us</a>
+              <a className="text-sm font-normal" href="#">Features</a>
+              <a className="text-sm font-normal" href="#">Blogs</a>
+              <a className="text-sm font-normal" href="#">Reviews</a>
+              <a className="text-sm font-normal" href="#">Pricing</a>
             </div>
           </div>
           <div>
             <h4 className="text-base font-semibold mb-7">Support</h4>
             <div className='flex flex-col gap-5'>
-              <p className="text-sm font-normal ">Integrations</p>
-              <p className="text-sm font-normal ">Careers</p>
-              <p className="text-sm font-normal ">Contact us</p>
-              <p className="text-sm font-normal ">FAQ’s</p>
+              <a className="text-sm font-normal" href="#">Integrations</a>
+              <a className="text-sm font-normal" href="#">Careers</a>
+              <a className="text-sm font-normal" href="#">Contact us</a>
+              <a className="text-sm font-normal" href="#">FAQ’s</a>
             </div>
           </div>
           <div>
             <h4 className="text-base font-semibold mb-7">Developers</h4>
             <div className='flex flex-col gap-5'>
-              <p className="text-sm font-normal ">Changelog</p>
-              <p className="text-sm font-normal ">Cookie Policy</p>
-              <p className="text-sm font-normal ">Coming Soon</p>
+              <a className="text-sm font-normal" href="#">Changelog</a>
+              <a className="text-sm font-normal" href="#">Cookie Policy</a>
+              <a className="text-sm font-normal" href="#">Coming Soon</a>
             </div>
           </div>
           <div>
             <h4 className="text-base font-semibold mb-7">Products</h4>
             <div className='flex flex-col gap-5'>
-              <p className="text-sm font-normal ">Privacy Policy</p>
-              <p className="text-sm font-normal ">Licensing</p>
-              <p className="text-sm font-normal ">Terms & Conditions</p>
-              <p className="text-sm font-normal ">Password</p>
+              <a className="text-sm font-normal" href="#">Privacy Policy</a>
+              <a className="text-sm font-normal" href="#">Licensing</a>
+              <a className="text-sm font-normal" href="#">Terms & Conditions</a>
+              <a className="text-sm font-normal" href="#">Password</a>
             </div>
           </div>
         </div>
